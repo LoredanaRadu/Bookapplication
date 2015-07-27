@@ -1,0 +1,39 @@
+table, th, td{
+
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td{
+    padding: 5px;
+    width: 20%;
+
+}
+
+table{
+    width: 100%;
+
+}
+tr {
+    height: 50px;
+
+}
+
+.myForm {
+    margin: auto;
+    text-align: center;
+
+}
+
+.myButtons {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input {
+        width: 30%;
+        height: 30px;
+
+}
+

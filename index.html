@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link rel="stylesheet" type="text/css" href="css\myStyle.css">
+
+
+</head>
+<body>
+<table id="myTable" class="display">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Read</th>
+        <th></th>
+
+    </tr>
+    </thead>
+
+
+</table>
+
+<form class="myForm">
+
+    <p>Title:</p>
+   <input type ="text" id="title" />
+    <p>Genre:</p>
+    <input type ="text" id="genre" />
+    <p>Author:</p>
+    <input type ="text" id="author"  />
+    <p>Read:</p>
+    <input type ="checkbox" id="read"/>
+    <div class="Buttons">
+    <button type="button" id="saveBook" class="myButtons">Save</button>
+    <button type="button" id="createBook" class="myButtons">Create</button>
+    </div>
+
+</form>
+
+<script src="node_modules\jquery\dist\jquery.js"></script>
+
+<script src="js\myScript.js"></script>
+</body>
+</html>
