@@ -42,6 +42,7 @@ var populateForm =
             success: function (data) {
                 //var $myForm = $('form.myForm');
                 //$myForm.find("#title").val(data.title);
+
                 $("#title").val(data.title);
                 $("#genre").val(data.genre);
                 $("#author").val(data.author);
@@ -179,6 +180,5 @@ $(document).ready(function () {
     attachClickEventToRows();
     attachClickEventToSave();
     attachClickEventToCreate();
-
 });
 
