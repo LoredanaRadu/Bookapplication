@@ -1,20 +1,22 @@
-table, th, td{
+table, th, td {
 
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     border-collapse: collapse;
     margin: auto;
 }
 
-th, td{
+th, td {
     padding: 5px;
     width: 20%;
 
 }
 
-table{
+table {
     width: 100%;
+    background-color: white;
 
 }
+
 tr {
     height: 50px;
 
@@ -32,8 +34,23 @@ tr {
 }
 
 input {
-        width: 30%;
-        height: 30px;
+    width: 30%;
+    height: 30px;
 
 }
 
+.styling {
+    margin-top: 10px;
+
+}
+
+.dropdown {
+    float: left;
+    padding-right: 80px;
+    margin-top: 20px;
+    width: 25%;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
